@@ -69,8 +69,6 @@ class Frame(tk.Frame):
         #list_csvReader = list(csvReader)
     #return list_csvReader
 
-
-
 def main():
     window = Window()
     frame = Frame(window)
