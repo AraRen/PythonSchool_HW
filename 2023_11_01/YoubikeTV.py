@@ -25,7 +25,7 @@ class YoubikeTreeView(ttk.Treeview):
         '''
         更新內容
         '''
-        #清除所有內容
+
         for i in self.get_children():
             self.delete(i)
         
