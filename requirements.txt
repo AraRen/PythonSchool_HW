@@ -2,3 +2,4 @@ PyInputPlus==0.2.12
 requests
 Pillow
 yfinance==0.2.31
+tkintermapview==1.29
