@@ -12,7 +12,7 @@ class Window(tk.Tk):
                                           )
         map_widget.place(relx=0.5, rely=0.5, anchor=tk.CENTER)
         marker_1 = map_widget.set_position(25.04781739462304, 121.51733109484061,marker=True) #台北車站位置
-        map_widget.set_zoom(14) #設定顯示大小
+        map_widget.set_zoom(17) #設定顯示大小
         marker_1.set_text("台北市半夜最多人的地方")
         # marker_1.set_position(48.860381, 2.338594)  # 改變位置
         # marker_1.delete()刪除
