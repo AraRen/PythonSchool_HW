@@ -3,3 +3,4 @@ requests
 Pillow
 yfinance==0.2.31
 tkintermapview==1.29
+psycopg2-binary==2.9.9
