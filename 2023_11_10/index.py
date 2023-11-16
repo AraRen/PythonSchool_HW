@@ -25,7 +25,7 @@ def main():
     def update_data()->None:
         datasource.update_render_data()
         global t
-        t = Timer(60*60,update_data)
+        t = Timer(30*60,update_data)
         t.start()  
 
     window = Window()
