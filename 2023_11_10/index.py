@@ -1,14 +1,14 @@
 import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
-import datasource_Lee
+import datasource
 from threading import Timer
 
 class Window(tk.Tk):                       
     def __init__(self, **kwargs):          
         super().__init__(**kwargs)         
         try:
-            datasource_Lee.update_render_data()
+            datasource.update_render_data()
         except Exception as e:                     
             messagebox.showerror("錯誤",f'{e}\n將關閉應用程式\n請稍後再試')
             self.destroy()                 
@@ -23,7 +23,7 @@ def main():
 
 
     def update_data()->None:
-        datasource_Lee.update_render_data()
+        datasource.update_render_data()
         global t
         t = Timer(60*60,update_data)
         t.start()  
