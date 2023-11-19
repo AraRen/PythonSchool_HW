@@ -1,3 +1,8 @@
+#python -m venv .venv
+#source .venv/Scripts/activate
+#pip install -r requirements.txt
+#python.exe -m pip install --upgrade pip
+
 PyInputPlus==0.2.12
 requests
 Pillow
